@@ -1,0 +1,162 @@
+<!-- @format -->
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 02</title>
+  </head>
+  <body>
+    <div id="banner" style="padding: 50px">
+      <h1>Nguyễn Văn A</h1>
+      <span>Full Stack Developer</span>
+    </div>
+
+    <section id="nav-bar">
+      <nav class="container">
+        <a href="#">Thông tin</a>
+        <a href="#">Lý lịch</a>
+        <a href="#">Chứng chỉ</a>
+        <a href="#">Dự Án</a>
+      </nav>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="container">
+        <div id="target">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+            hoàn thành tốt nhất công việc được giao.
+          </p>
+        </div>
+        <div id="personal-info" style="margin-top: 20px">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <ul class="mt-40 info">
+            <li><span>Giới tính</span> : Nam</li>
+            <li><span>Ngày sinh</span> : 19/05/2000</li>
+            <li><span>Điện thoại</span> : (+84) 912398xxx</li>
+            <li><span>Email</span> : sinhvien@funix.edu.vn</li>
+            <li><span>Địa chỉ</span> : Số 10, đường 10, Hà Nội</li>
+            <li><span>Website</span> : https://abc.tech</li>
+          </ul>
+          <h1>tiêu đề của tôi thử</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container">
+        <div style="margin-top: 20px">
+          <h1>Kinh nghiệm</h1>
+        </div>
+        <div style="margin-top: 20px">
+          <h1>Học vấn</h1>
+        </div>
+        <div style="margin-top: 20px">
+          <h1>Hoạt động</h1>
+        </div>
+        <div style="margin-top: 20px">
+          <h1>Sở thích</h1>
+        </div>
+        <div style="margin-top: 20px">
+          <h1>Ngôn ngữ</h1>
+        </div>
+        <div style="margin-top: 20px">
+          <h1>Kỹ năng</h1>
+        </div>
+      </div>
+    </section>
+    <section id="certificate" class="bg-grey">
+      <div class="container">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+      </div>
+    </section>
+
+    <section id="project">
+      <div class="container">
+        <h1 class="section-title">Dự án</h1>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <ul>
+          <li>Facebook</li>
+          <li>Linkedin</li>
+          <li>Github</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
+r
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+    <style>
+      .el--1 {
+        background-color: blueviolet;
+      }
+      .el--2 {
+        background-color: orangered;
+      }
+      .el--3 {
+        background-color: green;
+        height: 150px;
+      }
+      .el--4 {
+        background-color: goldenrod;
+      }
+      .el--5 {
+        background-color: palevioletred;
+      }
+      .el--6 {
+        background-color: steelblue;
+      }
+
+      .grid-container {
+        font-family: sans-serif;
+        background-color: #ddd;
+        font-size: 30px;
+
+        background-color: #000;
+        width: 800px;
+        height: 700px;
+        /* grid */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        column-gap: 20px;
+        row-gap: 50px;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="el el--1">1HTML</div>
+      <div class="el el--2">2and</div>
+      <div class="el el--3">3CSS</div>
+      <div class="el el--4">4are</div>
+      <div class="el el--5">5amazing</div>
+      <div class="el el--6">6languages</div>
+    </div>
+  </body>
+</html>
